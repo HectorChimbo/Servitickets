@@ -1,0 +1,42 @@
+body{
+	background:url(fondo.jpg);
+}
+
+section{
+	position: center;	
+	margin : 100px, auto;
+	width : 550px;
+	height: 375px;	
+}
+
+.etiqueta{
+	background-color: #00F;	
+	float: left;	
+	color: #FFF;	
+	position: left;
+	left: 20px;
+	top: 25px;	
+	width: 18%;
+	height: 60px;	
+	padding: 10px;	
+	border: 5px solid #009999;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;	
+}
+
+.formulario{
+	background-color: #F3F;	
+	float: center;
+	color: #FFF;	
+	position: right;
+	right: 20px;
+	top: 25px;	
+	width: 90%;
+	height: 60px;	
+	padding: 10px;	
+	border: 5px solid #009999;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;	
+}
