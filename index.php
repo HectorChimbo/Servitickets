@@ -17,7 +17,7 @@
 	<?php include('footer.php');?>
 	
 <!-- <div id="contenedor_derecho" class="grid_8">
-		<iframe width="100%" height="255" src="//www.youtube.com/embed/mBwsUD7jYCI?autoplay=0&color=white&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe></div>	-->
+		<iframe width="100%" height="250" src="//www.youtube.com/embed/mBwsUD7jYCI?autoplay=0&color=white&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe></div>	-->
 		
 		
 </div>
