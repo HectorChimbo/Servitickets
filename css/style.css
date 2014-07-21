@@ -1,0 +1,352 @@
+html{ 
+	font-family:Calibri, Arial, "Helvetica LT Std Cond" !important;
+	font-size:14px;
+}
+
+.fondo{
+	background:url(../img/nn2.jpg) repeat;	
+	font-family:Calibri, Arial, "Helvetica LT Std Cond";
+	font-size:14px;
+}
+
+/*
+   HEADER SECTION
+   ========================================================================== */
+/* line 6, ../scss/style.scss */
+.header-section {
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+  position: fixed;
+  z-index: 999;
+  min-width: 100%;
+}
+
+/* line 14, ../scss/style.scss */
+.contain-to-grid {
+  background-color: rgba(255, 255, 255, 0.97);
+}
+
+/* line 19, ../scss/style.scss */
+.header-fill {
+  background: #fff;
+  height: 135px;
+}
+/* line 22, ../scss/style.scss */
+.header-fill .tablet-mobile-logo img {
+  padding-top: 30px;
+}
+
+/* line 27, ../scss/style.scss */
+.full-width {
+  min-width: 100%;
+}
+
+/* line 31, ../scss/style.scss */
+p {
+  line-height: 3rem;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
+
+
+#header{position:fixed;top:0;height:40px}
+body.scroll #header{position:relative}#header-inner{width:auto;padding:0}#logo{float:none;padding-right:0;text-align:left}#logo a,#logo span{display:block;height:40px;margin:0 auto 0 auto}
+
+
+
+
+
+/*
+   TOPBAR NAVGATION
+   ========================================================================== */
+/* line 41, ../scss/style.scss */
+.top-bar {
+ /*background: none;*/
+  padding: 45px 0.9375rem 90px 0.9375rem;
+  transition: all 0.5s ease 0.1s;
+}
+/* line 46, ../scss/style.scss */
+.top-bar ul.title-area img {
+  margin: -40px 0 0 0;
+}
+/* line 49, ../scss/style.scss */
+.top-bar .top-bar-section ul {
+  background: none;
+}
+/* line 52, ../scss/style.scss */
+.top-bar .top-bar-section ul li a:not(.button), .top-bar .top-bar-section ul li.active a:not(.button) {
+  background: none;
+  line-height: 30px;
+  font-size: 12px;
+  padding: 0;
+  margin: 5px 0 0 0;
+  text-transform: uppercase;
+}
+/* line 61, ../scss/style.scss */
+.top-bar .top-bar-section ul li a:not(.button):hover {
+ /* background: none;*/
+  border-bottom: 2px solid #D5030C;
+  color: #222;
+}
+/* line 67, ../scss/style.scss */
+.top-bar .top-bar-section ul li.active a:not(.button) {
+  border-bottom: 2px solid #4F3300;
+  color: #4F3300;
+  font-size:16px;
+  font-family:Calibri, Arial, "Helvetica LT Std Cond";
+  font-weight:bold;
+
+}
+/* line 70, ../scss/style.scss */
+.top-bar .top-bar-section ul li.active a:not(.button):hover {
+ /* background: none;*/
+}
+/* line 74, ../scss/style.scss */
+.top-bar .top-bar-section ul li {
+  margin-left: 20px;
+  text-align:center;
+  width:115px;
+  font-family:Calibri, Arial, "Helvetica LT Std Cond";
+  font-weight:bold;
+}
+/* line 76, ../scss/style.scss */
+.top-bar .top-bar-section ul li a {
+  color: #4f3300;
+  padding-top:20px;
+  font-weight:bold;
+  
+}
+/* line 82, ../scss/style.scss */
+.top-bar .top-bar-section ul li:hover:not(.has-form) > a {
+  color: #;
+
+}
+/* line 85, ../scss/style.scss */
+.top-bar .top-bar-section li ul.dropdown {
+  background-color:transparent #FFF; 
+  border: 1px solid #ddd;
+  color: #888;
+  
+}
+/* line 89, ../scss/style.scss */
+.top-bar .top-bar-section li ul.dropdown li {
+  border-bottom: 1px solid #ddd;
+  margin: 0;
+  padding: 5px 15px 5px 15px;
+
+}
+/* line 95, ../scss/style.scss */
+.top-bar .top-bar-section li ul.dropdown li a:not(.button):hover, .top-bar .top-bar-section li ul.dropdown li a:not(.button) {
+  background: none;
+  color: #222;
+  border-bottom: none;
+  padding: 20px -4px 40px 45px;
+}
+/* line 101, ../scss/style.scss */
+.top-bar .top-bar-section ul.dropdown li:hover:not(.has-form) > a:not(.button) {
+  background: none;
+  color: #222;
+}
+/* line 106, ../scss/style.scss */
+.top-bar .has-dropdown > a:after {
+  border-color: rgba(0, 0, 0, 0.5) transparent transparent;
+  margin-top: -5px;
+}
+
+/*
+   CONTENT SECTION
+   ========================================================================== */
+/* line 118, ../scss/style.scss */
+.content-section .main-content {
+  margin-top: 35px;
+}
+
+
+
+
+/*
+	SLIDER
+  ==============================================================================*/
+    
+  .galeria{
+	/*background-color:#D5E0C3;*/
+	margin-top:100px;
+	padding-top:20px;
+	padding-left: 120px;
+	z-index:800;
+}
+  
+  
+  
+
+/*
+   FOOTER SECTION
+   ========================================================================== */
+/* line 128, ../scss/style.scss */
+.footer-section {
+  background: #333;
+  min-height: 100px;
+}
+/* line 131, ../scss/style.scss */
+.footer-section p {
+  color: #fff;
+  margin-top: 50px;
+}
+
+/* line 138, ../scss/style.scss */
+.padding-on-my-header {
+  padding: 17px 0.9375rem 62px 0.9375rem;
+}
+/* line 140, ../scss/style.scss */
+.padding-on-my-header ul.title-area img {
+  margin: -5px 0 0 0;
+}
+
+/*
+	 CONTENT SECTION
+	 ========================================================================== */
+/* line 151, ../scss/style.scss */
+.content-section .main-content {
+  margin-top: 35px;
+}
+
+/*
+	 FOOTER SECTION
+	 ========================================================================== */
+/* line 161, ../scss/style.scss */
+.footer-section {
+  background: url(../img/pie.png) no-repeat;
+  min-height: 100px;
+}
+/* line 164, ../scss/style.scss */
+.footer-section p {
+  color: #fff;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 1024px) {
+	
+	.galeria{
+	margin-top:0px;
+	padding-top:-100px;
+	padding-left:50px;
+	z-index:800;
+	}
+  
+  /* line 172, ../scss/style.scss */
+  .top-bar {
+    margin-top: 0;
+    padding: 0;
+    float: none;
+  }
+  /* line 177, ../scss/style.scss */
+  .top-bar .toggle-topbar.menu-icon a {
+    color: #222;
+  }
+  /* line 179, ../scss/style.scss */
+  .top-bar .toggle-topbar.menu-icon a:after {
+    box-shadow: 0 10px 0 1px #222, 0 16px 0 1px #222, 0 22px 0 1px #222;
+  }
+  /* line 184, ../scss/style.scss */
+  .top-bar ul.title-area img {
+    margin: -2px 0 0;
+    width: 145px;
+  }
+  /* line 189, ../scss/style.scss */
+  .top-bar .top-bar-section ul {
+    background: #FFF scroll right no-repeat;
+
+  }
+  /* line 191, ../scss/style.scss */
+  .top-bar .top-bar-section ul li {
+    margin-left: 0;
+  }
+  /* line 194, ../scss/style.scss */
+  .top-bar .top-bar-section ul li > a {
+    background: #D5030C;
+    border-radius: 0;
+    font-size: 0.9rem;
+  }
+  /* line 200, ../scss/style.scss */
+  .top-bar .top-bar-section ul li:not(.has-form) a:not(.button) {
+    background: none;
+    color: #000;
+    padding: 10px 15px;
+    margin-top: 0;
+  }
+  /* line 205, ../scss/style.scss */
+  .top-bar .top-bar-section ul li:not(.has-form) a:not(.button):hover {
+    background: #D5030C;
+    color: #fff;
+    margin-top: 0;
+  }
+  /* line 212, ../scss/style.scss */
+.  .top-bar .top-bar-section ul li.active:not(.has-form) a:not(.button) {
+    background: #D5030C;
+    color: #fff;
+    padding: 10px 15px;
+    margin-top: 0;
+  }
+  /* line 217, ../scss/style.scss */
+  .top-bar .top-bar-section ul li.active:not(.has-form) a:not(.button):hover {
+    background: #D5030C;
+    margin-top: 0;
+  }
+
+  /* line 226, ../scss/style.scss */
+  .top-bar.padding-on-my-header ul.title-area img {
+    margin: 5px 13px 0;
+    width: 35px;
+  }
+
+  /* line 231, ../scss/style.scss */
+  .top-bar.expanded {
+    margin-top: 0;
+    padding: 0;
+    float: none;
+  }
+  /* line 235, ../scss/style.scss */
+  .top-bar.expanded .toggle-topbar.menu-icon a {
+    color: #4F3200;
+  }
+  /* line 237, ../scss/style.scss */
+  .top-bar.expanded .toggle-topbar.menu-icon a:after {
+    box-shadow: 0 10px 0 1px #000, 0 16px 0 1px #000, 0 22px 0 1px #000;
+  }
+
+  /* line 244, ../scss/style.scss */
+  .header-fill {
+    height: 40px;
+  }
+  .galeria{
+	/*background-color:#D5E0C3;*/
+	margin-top:150px;
+	padding-top:20px;
+	z-index:800;
+}
+}
+
+
+@media screen and (max-device-width: 480px) {
+	
+	.galeria {
+		margin-top:0px;
+		padding-top:-150px;
+		max-width: 100%;
+		height: auto;
+	}
+	
+}
+
+
+@media screen and (max-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+	.galeria{
+		margin-top:0px;
+		padding-top:-150px;
+		max-width: 100%;
+		height: auto;
+	
+	}
+	
+	
+}
